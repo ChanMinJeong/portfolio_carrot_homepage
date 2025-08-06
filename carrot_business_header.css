@@ -1,0 +1,122 @@
+/*헤더 상단 고정*/
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 55px;
+  background: white;
+  z-index: 300;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 900px;
+  height: 100%;
+  margin: 0 200px;
+}
+
+.header-logo-img img {
+  min-width: 130px;
+  height: 32px;
+}
+
+.header-box-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-nav-left {
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-nav-left:hover {
+  background: #f2f3f6;
+}
+
+.header-nav-left > a {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  height: 28px;
+  text-decoration: none;
+  color: #000;
+}
+
+.header-nav-left svg {
+  width: 16px;
+  margin-left: 5px;
+  color: lightgray;
+}
+
+/* 드롭다운 메뉴 */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  min-width: 160px;
+  z-index: 1000;
+  line-height: 2;
+}
+
+.dropdown li {
+  list-style: none;
+}
+
+.dropdown li a {
+  display: block;
+  padding: 8px 16px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.dropdown li:hover {
+  background-color: #f2f3f6;
+}
+
+.header-box-right {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.header-help {
+  font-size: 16px;
+}
+
+.header-start {
+  background: #ff6f0f;
+  color: white;
+  border-radius: 7px;
+  width: 110px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header-null {
+  display: flex;
+  width: 100%;
+  height: 0;
+  padding-top: 55px;
+  left: 0;
+}

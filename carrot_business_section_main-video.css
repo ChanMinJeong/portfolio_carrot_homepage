@@ -1,0 +1,75 @@
+/*섹션 1, 인트로 비디오 구간*/
+.main-video {
+  height: auto;
+}
+
+.head-video-wrapper {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 60vh;
+}
+
+.head-video-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+}
+
+.head-video-box > video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.head-video-text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+
+.head-video-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  gap: 80px;
+}
+
+.head-video-text > h1 {
+  font-size: 5vw;
+  font-weight: 900;
+}
+
+.head-video-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 65px;
+  border: none;
+  border-radius: 7px;
+  background: #ff6f0f;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.head-video-text > a {
+  color: white;
+  text-decoration: none;
+}

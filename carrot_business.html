@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>당근비즈니스</title>
+    <link rel="stylesheet" href="carrot_business.css" />
+    <script src="./jquery-3.7.1.min.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-box">
+        <nav>
+          <ul class="header-box-left">
+            <li>
+              <a class="header-logo-img" href="#">
+                <img
+                  class="logo-icon"
+                  src="https://business.karroter.net/daangn-business/images/rebrand_logo.png"
+                  alt="logo"
+                />
+              </a>
+            </li>
+
+            <!-- 비즈프로필 -->
+            <li class="header-nav-left has-dropdown">
+              <a href="#">비즈프로필</a>
+              <ul class="dropdown">
+                <li><a href="#">비즈프로필이란?</a></li>
+              </ul>
+            </li>
+
+            <!-- 광고 -->
+            <li class="header-nav-left has-dropdown">
+              <a href="#">광고</a>
+              <ul class="dropdown">
+                <li><a href="#">당근 광고란?</a></li>
+                <li><a href="#">소상공인</a></li>
+                <li><a href="#">전문 마케터</a></li>
+              </ul>
+            </li>
+
+            <!-- 성공사례·교육 -->
+            <li class="header-nav-left has-dropdown">
+              <a href="#">성공사례·교육</a>
+              <ul class="dropdown">
+                <li><a href="#">성공사례</a></li>
+                <li><a href="#">온라인 교육</a></li>
+                <li><a href="#">사업 노하우</a></li>
+              </ul>
+            </li>
+
+            <li class="header-nav-left">
+              <a href="#">
+                이용가이드
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  data-seed-icon="true"
+                  data-seed-icon-version="0.6.1"
+                  width="24"
+                  height="24"
+                  class="icon-wrapper"
+                >
+                  <g>
+                    <path
+                      d="M19.0189 5.25376C18.9947 5.21362 18.9667 5.17515 18.9348 5.13887C18.9228 5.12522 18.9103 5.11198 18.8974 5.09918C18.7369 4.9395 18.5255 4.862 18.3155 4.86665L7.0002 4.86662C6.55837 4.86662 6.20019 5.22479 6.20019 5.66661C6.20019 6.10844 6.55836 6.46662 7.00019 6.46662L16.4018 6.46665L5.10101 17.7674C4.78859 18.0799 4.78859 18.5864 5.10101 18.8988C5.41343 19.2112 5.91996 19.2112 6.23238 18.8988L17.5336 7.59763V17C17.5336 17.4418 17.8917 17.8 18.3336 17.8C18.7754 17.8 19.1336 17.4418 19.1336 17V5.66665C19.1336 5.51558 19.0917 5.37429 19.0189 5.25376Z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-box-right">
+          <a href="#"><div class="header-help">고객센터</div></a>
+          <a href="#"><div class="header-start">시작하기</div></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="header-null"></div>
+      <!--메인 섹션 1, 메인 비디오-->
+      <section class="main-video">
+        <div class="head-video-wrapper">
+          <div class="head-video-box">
+            <video
+              src="./video/header-main-video1.webm"
+              muted
+              autoplay
+              loop
+            ></video>
+            <div class="head-video-text-box">
+              <div class="head-video-text">
+                <h1>당근이웃, 내 고객이 되다</h1>
+                <a href="#">
+                  <div class="head-video-btn">
+                    <span>무료로 시작하기</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--섹션2, 텍스트 슬라이더와 서비스 정보 -->
+      <section>
+        <div class="head-section-text-slider">
+          <div class="head-section-text-slider">
+            <div class="head-section-slider-text-l-btn">
+              <button id="prevBtn">
+                <svg
+                  id="icon_chevron_left_thin"
+                  width="100%"
+                  height="100%"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  data-karrot-ui-icon="true"
+                >
+                  <g>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M16.6225 3.17006C16.8525 3.40006 16.8525 3.78006 16.6225 4.01006L8.63245 12.0001L16.6225 19.9901C16.8525 20.2201 16.8525 20.6001 16.6225 20.8301C16.3925 21.0601 16.0125 21.0601 15.7825 20.8301L7.37245 12.4201C7.14245 12.1901 7.14245 11.8101 7.37245 11.5801L15.7825 3.17006C16.0125 2.94006 16.3925 2.94006 16.6225 3.17006Z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+              <!-- ✅ 좌측 버튼 추가 -->
+            </div>
+
+            <div class="head-section-slider-text-box">
+              <!-- ✅ 슬라이더 트랙: 내부 슬라이드들을 감싸는 요소 -->
+              <div class="head-section-slider-track">
+                <!-- ✅ 새 클래스: 트랙 -->
+                <div class="head-section-slider-text slider-1">
+                  <div class="tead-section-text-1">
+                    <img src="./image/text-slider-img-1.png" />
+                    <span class="head-section-slider-text-span-1">
+                      당근 사장님을 위한 최대
+                      <span class="head-section-slider-text-span-2"
+                        >26만원 광고비 혜택</span
+                      ></span
+                    >
+                    <button class="arrow-btn" aria-label="더보기">
+                      <svg
+                        id="icon_forward_regular"
+                        width="100%"
+                        height="100%"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        data-karrot-ui-icon="true"
+                      >
+                        <g>
+                          <path
+                            d="M11.4344 4.56564C11.1219 4.25322 11.1219 3.74669 11.4344 3.43427C11.7468 3.12185 12.2533 3.12185 12.5657 3.43427L20.5657 11.4343C20.8782 11.7467 20.8782 12.2532 20.5657 12.5656L12.5657 20.5656C12.2533 20.8781 11.7468 20.8781 11.4344 20.5656C11.1219 20.2532 11.1219 19.7467 11.4344 19.4343L18.0687 12.8H4C3.55817 12.8 3.2 12.4418 3.2 12C3.2 11.5582 3.55817 11.2 4 11.2H18.0687L11.4344 4.56564Z"
+                            fill="currentColor"
+                          ></path>
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="head-section-slider-text slider-2">
+                  <div class="tead-section-text-2">
+                    <img src="./image/text-slider-img-2.webp" />
+                    <span class="head-section-slider-text-span-1">
+                      당근 광고 홍보하고
+                      <span class="head-section-slider-text-span-2"
+                        >리워드 받기</span
+                      ></span
+                    >
+                    <button class="arrow-btn" aria-label="더보기">
+                      <svg
+                        id="icon_forward_regular"
+                        width="100%"
+                        height="100%"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        data-karrot-ui-icon="true"
+                      >
+                        <g>
+                          <path
+                            d="M11.4344 4.56564C11.1219 4.25322 11.1219 3.74669 11.4344 3.43427C11.7468 3.12185 12.2533 3.12185 12.5657 3.43427L20.5657 11.4343C20.8782 11.7467 20.8782 12.2532 20.5657 12.5656L12.5657 20.5656C12.2533 20.8781 11.7468 20.8781 11.4344 20.5656C11.1219 20.2532 11.1219 19.7467 11.4344 19.4343L18.0687 12.8H4C3.55817 12.8 3.2 12.4418 3.2 12C3.2 11.5582 3.55817 11.2 4 11.2H18.0687L11.4344 4.56564Z"
+                            fill="currentColor"
+                          ></path>
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="head-section-slider-text-r-btn">
+              <button id="nextBtn">
+                <svg
+                  id="icon_chevron_right_thin"
+                  width="100%"
+                  height="100%"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  data-karrot-ui-icon="true"
+                >
+                  <g>
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8.22246 3.17006L16.6325 11.5801C16.8625 11.8101 16.8625 12.1901 16.6325 12.4201L8.22246 20.8301C7.99246 21.0601 7.61246 21.0601 7.38246 20.8301C7.15246 20.6001 7.15246 20.2201 7.38246 19.9901L15.3725 12.0001L7.38246 4.01006C7.15246 3.78006 7.15246 3.40006 7.38246 3.17006C7.61246 2.94006 7.99246 2.94006 8.22246 3.17006Z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+              <!-- ✅ 우측 버튼 추가 -->
+            </div>
+          </div>
+        </div>
+
+        <div class="info-section">
+          <div class="info-container">
+            <div class="info-left">
+              <h2>
+                3,900만 당근이웃이 내 단골이 된다면<br />얼마나 힘이 날까요?
+              </h2>
+              <p>
+                대한민국 모든 동네의 이웃이 모인 곳에<br />나의 비즈니스를
+                알려세요.
+              </p>
+            </div>
+            <div class="info-right">
+              <div class="info-item">
+                <span class="info-title">서비스 가입자</span>
+                <span class="info-value">3,900만 +</span>
+              </div>
+              <div class="info-item">
+                <span class="info-title">이용자 하루 평균 체류 시간</span>
+                <span class="info-value">20분 +</span>
+              </div>
+              <div class="info-item">
+                <span class="info-title">월간 이용자 수(MAU)</span>
+                <span class="info-value">1,900만 +</span>
+              </div>
+            </div>
+          </div>
+          <div class="info-footnote">2024년 6월 가입자 기준</div>
+        </div>
+      </section>
+
+      <!-- 메인 카드 섹션 -->
+      <section class="ad-section">
+        <div class="ad-inner">
+          <div class="ad-header">
+            <span class="ad-subtitle">광고 상품</span>
+            <h2 class="ad-title">당근이라서 가능한<br />동네 기반 광고</h2>
+          </div>
+          <div class="ad-card-wrapper">
+            <!-- 카드 1 -->
+            <div class="ad-card">
+              <div class="ad-card-image">
+                <video
+                  src="./video/main-section-card1-video-1.mp4"
+                  muted
+                  autoplay
+                  loop
+                ></video>
+              </div>
+              <div class="ad-card-body">
+                <h3>
+                  피드 광고
+                  <button class="arrow-btn" aria-label="더보기">
+                    <svg
+                      id="icon_forward_regular"
+                      width="100%"
+                      height="100%"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      data-karrot-ui-icon="true"
+                    >
+                      <g>
+                        <path
+                          d="M11.4344 4.56564C11.1219 4.25322 11.1219 3.74669 11.4344 3.43427C11.7468 3.12185 12.2533 3.12185 12.5657 3.43427L20.5657 11.4343C20.8782 11.7467 20.8782 12.2532 20.5657 12.5656L12.5657 20.5656C12.2533 20.8781 11.7468 20.8781 11.4344 20.5656C11.1219 20.2532 11.1219 19.7467 11.4344 19.4343L18.0687 12.8H4C3.55817 12.8 3.2 12.4418 3.2 12C3.2 11.5582 3.55817 11.2 4 11.2H18.0687L11.4344 4.56564Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                    </svg>
+                  </button>
+                </h3>
+                <p>동네 이웃 2명 중 1명이 사용하는 중고거래 홈에 보여요.</p>
+                <div class="ad-card-tags">
+                  <span>간편모드</span>
+                  <span>전문가모드</span>
+                </div>
+              </div>
+            </div>
+            <!-- 카드 2 -->
+            <div class="ad-card">
+              <div class="ad-card-image">
+                <video
+                  src="./video/main-section-card1-video-2.mp4"
+                  muted
+                  autoplay
+                  loop
+                ></video>
+              </div>
+              <div class="ad-card-body">
+                <h3>
+                  검색 광고
+                  <button class="arrow-btn" aria-label="더보기">
+                    <svg
+                      id="icon_forward_regular"
+                      width="100%"
+                      height="100%"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      data-karrot-ui-icon="true"
+                    >
+                      <g>
+                        <path
+                          d="M11.4344 4.56564C11.1219 4.25322 11.1219 3.74669 11.4344 3.43427C11.7468 3.12185 12.2533 3.12185 12.5657 3.43427L20.5657 11.4343C20.8782 11.7467 20.8782 12.2532 20.5657 12.5656L12.5657 20.5656C12.2533 20.8781 11.7468 20.8781 11.4344 20.5656C11.1219 20.2532 11.1219 19.7467 11.4344 19.4343L18.0687 12.8H4C3.55817 12.8 3.2 12.4418 3.2 12C3.2 11.5582 3.55817 11.2 4 11.2H18.0687L11.4344 4.56564Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                    </svg>
+                  </button>
+                </h3>
+                <p>우리 가게에 관심 있을 만한 이웃의 검색 결과에 보여요.</p>
+                <div class="ad-card-tags">
+                  <span>간편모드</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mode-section">
+        <div class="mode-inner">
+          <div class="mode-header">
+            <span class="mode-subtitle">광고 모드</span>
+            <h2 class="mode-title">
+              광고 목표, 필요한 기능에 따라<br />선택 가능한 광고 모드
+            </h2>
+          </div>
+          <div class="mode-content">
+            <div class="mode-simple">
+              <a href="#" class="mode-link"
+                >간편모드
+                <button class="arrow-btn" aria-label="더보기">
+                  <svg
+                    id="icon_forward_regular"
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-karrot-ui-icon="true"
+                  >
+                    <g>
+                      <path
+                        d="M11.4344 4.56564C11.1219 4.25322 11.1219 3.74669 11.4344 3.43427C11.7468 3.12185 12.2533 3.12185 12.5657 3.43427L20.5657 11.4343C20.8782 11.7467 20.8782 12.2532 20.5657 12.5656L12.5657 20.5656C12.2533 20.8781 11.7468 20.8781 11.4344 20.5656C11.1219 20.2532 11.1219 19.7467 11.4344 19.4343L18.0687 12.8H4C3.55817 12.8 3.2 12.4418 3.2 12C3.2 11.5582 3.55817 11.2 4 11.2H18.0687L11.4344 4.56564Z"
+                        fill="currentColor"
+                      ></path>
+                    </g>
+                  </svg></button
+              ></a>
+              <p>
+                쉽고 빠르게 우리 가게를 알리고 싶은 소상공인 광고주에게
+                추천해요.
+              </p>
+              <div class="mode-tags">
+                <button>피드광고</button>
+                <button>검색광고</button>
+              </div>
+            </div>
+            <div class="mode-slider-wrapper">
+              <!-- ⭐ 슬라이더 컨테이너 추가 -->
+              <div class="mode-slider">
+                <div class="slider-track">
+                  <div class="mode-card">
+                    <video
+                      src="./video/main-section-card2-video-1.mp4"
+                      autoplay
+                      loop
+                      muted
+                    ></video>
+                  </div>
+                  <div class="mode-card">
+                    <video
+                      src="./video/main-section-card2-video-2.mp4"
+                      autoplay
+                      loop
+                      muted
+                    ></video>
+                  </div>
+                  <div class="mode-card">
+                    <video
+                      src="./video/main-section-card2-video-3.mp4"
+                      autoplay
+                      loop
+                      muted
+                    ></video>
+                  </div>
+                </div>
+                <button class="arrow left" onclick="prevSlide()">
+                  <svg
+                    id="icon_chevron_left_regular"
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-karrot-ui-icon="true"
+                  >
+                    <g>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M16.66 3.22988C16.96 3.52988 16.96 4.01988 16.66 4.31988L8.97999 11.9999L16.66 19.6799C16.96 19.9799 16.96 20.4699 16.66 20.7699C16.36 21.0699 15.87 21.0699 15.57 20.7699L7.33999 12.5499C7.03999 12.2499 7.03999 11.7599 7.33999 11.4599L15.56 3.22988C15.86 2.92988 16.35 2.92988 16.65 3.22988H16.66Z"
+                        fill="currentColor"
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
+                <button class="arrow right" onclick="nextSlide()">
+                  <svg
+                    id="icon_chevron_right_regular"
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-karrot-ui-icon="true"
+                  >
+                    <g>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M8.42511 3.22988L16.6551 11.4499C16.9551 11.7499 16.9551 12.2399 16.6551 12.5399L8.42511 20.7699C8.12511 21.0699 7.63511 21.0699 7.33511 20.7699C7.03511 20.4699 7.03511 19.9799 7.33511 19.6799L15.0151 11.9999L7.33511 4.31988C7.03511 4.01988 7.03511 3.52988 7.33511 3.22988C7.63511 2.92988 8.12511 2.92988 8.42511 3.22988Z"
+                        fill="currentColor"
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="mode-pagination">
+            <button class="page active" onclick="goToSlide(0)">1</button>
+            <button class="page" onclick="goToSlide(1)">2</button>
+            <button class="page" onclick="goToSlide(2)">3</button>
+          </div>
+
+          <div class="expert-headers">
+            <div class="expert-header">
+              <p class="expert-caption">원하는 동네만 쏙쏙</p>
+              <p class="expert-caption-desc">
+                광고하고 싶은 동네를 직접 선택할 수 있어요.
+              </p>
+            </div>
+            <div class="expert-header">
+              <p class="expert-caption">커피 한 잔 가격으로</p>
+              <p class="expert-caption-desc">
+                광고비와 광고기간을 필요한 만큼 자유롭게 설정할 수 있어요.
+              </p>
+            </div>
+            <div class="expert-header">
+              <p class="expert-caption">간편한 성과 보고서</p>
+              <p class="expert-caption-desc">
+                광고 성과 보고서로 고객 반응을 한 눈에 확인할 수 있어요.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="expert-section">
+        <div class="expert-inner">
+          <div class="expert-content">
+            <div class="expert-info">
+              <a href="#" class="expert-link"
+                >전문가모드
+                <button class="arrow-btn" aria-label="더보기">
+                  <svg
+                    id="icon_forward_regular"
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-karrot-ui-icon="true"
+                  >
+                    <g>
+                      <path
+                        d="M11.4344 4.56564C11.1219 4.25322 11.1219 3.74669 11.4344 3.43427C11.7468 3.12185 12.2533 3.12185 12.5657 3.43427L20.5657 11.4343C20.8782 11.7467 20.8782 12.2532 20.5657 12.5656L12.5657 20.5656C12.2533 20.8781 11.7468 20.8781 11.4344 20.5656C11.1219 20.2532 11.1219 19.7467 11.4344 19.4343L18.0687 12.8H4C3.55817 12.8 3.2 12.4418 3.2 12C3.2 11.5582 3.55817 11.2 4 11.2H18.0687L11.4344 4.56564Z"
+                        fill="currentColor"
+                      ></path>
+                    </g>
+                  </svg></button
+              ></a>
+
+              <p class="expert-desc">
+                광고 목표 달성을 위해 정교한 관리 기능이 필요한 마케팅 담당자 및
+                광고주에게 추천해요.
+              </p>
+              <div class="expert-tags">
+                <button>피드광고</button>
+                <button>카탈로그 상품 광고</button>
+              </div>
+            </div>
+            <div class="expert-slider-wrapper">
+              <!-- ⭐ 슬라이더 컨테이너 -->
+              <div class="expert-slider">
+                <div class="expert-slider-track">
+                  <!-- ⭐ 각 동영상 카드 (4개) -->
+                  <div class="expert-card">
+                    <video
+                      src="./video/main-section-card3-video-1.mp4"
+                      autoplay
+                      loop
+                      muted
+                    ></video>
+                  </div>
+                  <div class="expert-card">
+                    <video
+                      src="./video/main-section-card3-video-2.mp4"
+                      autoplay
+                      loop
+                      muted
+                    ></video>
+                  </div>
+                  <div class="expert-card">
+                    <video
+                      src="./video/main-section-card3-video-3.mp4"
+                      autoplay
+                      loop
+                      muted
+                    ></video>
+                  </div>
+                  <div class="expert-card">
+                    <video
+                      src="./video/main-section-card3-video-4.mp4"
+                      autoplay
+                      loop
+                      muted
+                    ></video>
+                  </div>
+                </div>
+                <button class="arrow left">
+                  <svg
+                    id="icon_chevron_left_regular"
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-karrot-ui-icon="true"
+                  >
+                    <g>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M16.66 3.22988C16.96 3.52988 16.96 4.01988 16.66 4.31988L8.97999 11.9999L16.66 19.6799C16.96 19.9799 16.96 20.4699 16.66 20.7699C16.36 21.0699 15.87 21.0699 15.57 20.7699L7.33999 12.5499C7.03999 12.2499 7.03999 11.7599 7.33999 11.4599L15.56 3.22988C15.86 2.92988 16.35 2.92988 16.65 3.22988H16.66Z"
+                        fill="currentColor"
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
+                <button class="arrow right">
+                  <svg
+                    id="icon_chevron_right_regular"
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-karrot-ui-icon="true"
+                  >
+                    <g>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M8.42511 3.22988L16.6551 11.4499C16.9551 11.7499 16.9551 12.2399 16.6551 12.5399L8.42511 20.7699C8.12511 21.0699 7.63511 21.0699 7.33511 20.7699C7.03511 20.4699 7.03511 19.9799 7.33511 19.6799L15.0151 11.9999L7.33511 4.31988C7.03511 4.01988 7.03511 3.52988 7.33511 3.22988C7.63511 2.92988 8.12511 2.92988 8.42511 3.22988Z"
+                        fill="currentColor"
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="expert-pagination">
+            <button class="page active" onclick="showExpertSlide(0)">1</button>
+            <button class="page" onclick="showExpertSlide(1)">2</button>
+            <button class="page" onclick="showExpertSlide(2)">3</button>
+            <button class="page" onclick="showExpertSlide(3)">4</button>
+          </div>
+          <div class="expert-summaries">
+            <div class="expert-summary">
+              <h4>정밀한 타겟팅</h4>
+              <p>
+                인구통계학, 관심사 등의 정교한 조건으로 원하는 타겟을 설정할 수
+                있어요.
+              </p>
+            </div>
+            <div class="expert-summary">
+              <h4>예산 및 입찰가 관리</h4>
+              <p>
+                마케팅 전략에 맞춰 캠페인 별로 예산과 입찰가를 설정하고 광고
+                효율을 높일 수 있어요.
+              </p>
+            </div>
+            <div class="expert-summary">
+              <h4>맞춤 보고서</h4>
+              <p>
+                원하는 지표 위주로 맞춤형 보고서를 만들고 필요한 성과 데이터를
+                분석할 수 있어요.
+              </p>
+            </div>
+            <div class="expert-summary">
+              <h4>직관적인 성과 대시보드</h4>
+              <p>
+                대시보드를 활용해 캠페인 성과를 최적화하고 광고 효율을 높일 수
+                있어요.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="biz-section">
+        <div class="biz-inner">
+          <!-- 상단: 비즈니스 카드 -->
+          <div class="biz-profile">
+            <div class="biz-left">
+              <img src="./image/biz-prifile.png" alt="비즈 카드 이미지" />
+            </div>
+            <div class="biz-right">
+              <span class="biz-subtitle">비즈프로필</span>
+              <h2 class="biz-title">당근 안에서<br />보여주는 내 업체</h2>
+              <p class="biz-desc">
+                당근에 무료로 내 업체를 등록하고,<br />
+                동네에 손 쉽게 알려보세요.
+              </p>
+              <button class="biz-btn">비즈프로필 더 알아보기</button>
+            </div>
+          </div>
+
+          <!-- 하단 서비스 카드 -->
+          <div class="biz-service">
+            <span class="biz-subtitle">서비스</span>
+            <h2 class="biz-title">비즈니스에 힘이 되는 서비스</h2>
+            <div class="biz-service-box">
+              <div class="biz-card brand">
+                <div class="icon">
+                  <img src="./image/brand_profile.png" />
+                </div>
+                <div class="text">
+                  <div class="card-title-wrapper">
+                    <a href="#" class="card-title">브랜프로필</a>
+                    <button class="arrow-btn" aria-label="더보기">
+                      <svg
+                        id="icon_forward_regular"
+                        width="100%"
+                        height="100%"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        data-karrot-ui-icon="true"
+                      >
+                        <g>
+                          <path
+                            d="M11.4344 4.56564C11.1219 4.25322 11.1219 3.74669 11.4344 3.43427C11.7468 3.12185 12.2533 3.12185 12.5657 3.43427L20.5657 11.4343C20.8782 11.7467 20.8782 12.2532 20.5657 12.5656L12.5657 20.5656C12.2533 20.8781 11.7468 20.8781 11.4344 20.5656C11.1219 20.2532 11.1219 19.7467 11.4344 19.4343L18.0687 12.8H4C3.55817 12.8 3.2 12.4418 3.2 12C3.2 11.5582 3.55817 11.2 4 11.2H18.0687L11.4344 4.56564Z"
+                            fill="currentColor"
+                          ></path>
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                  <p>
+                    브랜드 본사에서 전국 지점 정보와 프로모션을<br />
+                    손 쉽게 등록, 관리할 수 있어요.
+                  </p>
+                </div>
+              </div>
+              <div class="biz-card alba">
+                <div class="icon">
+                  <img src="./image/daangn_alba_v2.png" />
+                </div>
+                <div class="text">
+                  <div class="card-title-wrapper">
+                    <a href="#" class="card-title">당근 알바</a>
+                    <button class="arrow-btn" aria-label="더보기">
+                      <svg
+                        id="icon_forward_regular"
+                        width="100%"
+                        height="100%"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        data-karrot-ui-icon="true"
+                      >
+                        <g>
+                          <path
+                            d="M11.4344 4.56564C11.1219 4.25322 11.1219 3.74669 11.4344 3.43427C11.7468 3.12185 12.2533 3.12185 12.5657 3.43427L20.5657 11.4343C20.8782 11.7467 20.8782 12.2532 20.5657 12.5656L12.5657 20.5656C12.2533 20.8781 11.7468 20.8781 11.4344 20.5656C11.1219 20.2532 11.1219 19.7467 11.4344 19.4343L18.0687 12.8H4C3.55817 12.8 3.2 12.4418 3.2 12C3.2 11.5582 3.55817 11.2 4 11.2H18.0687L11.4344 4.56564Z"
+                            fill="currentColor"
+                          ></path>
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+
+                  <p>
+                    우리동네 걸어서 10분 거리에 있는 알바생을<br />
+                    쉽고 빠르게 찾을 수 있어요.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="success-section">
+        <div class="success-inner">
+          <div class="success-header">
+            <div class="success-text-box">
+              <p class="success-subtitle">성공사례</p>
+              <h2 class="success-title">
+                당근비즈니스로 성장한<br />비결을 확인해보세요
+              </h2>
+            </div>
+            <div class="success-controls">
+              <button class="success-more-btn">성공사례 더보기</button>
+
+              <div class="success-controls-lr-btn">
+                <button class="success-arrow success-left">
+                  <svg
+                    id="icon_chevron_left_regular"
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-karrot-ui-icon="true"
+                  >
+                    <g>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M16.66 3.22988C16.96 3.52988 16.96 4.01988 16.66 4.31988L8.97999 11.9999L16.66 19.6799C16.96 19.9799 16.96 20.4699 16.66 20.7699C16.36 21.0699 15.87 21.0699 15.57 20.7699L7.33999 12.5499C7.03999 12.2499 7.03999 11.7599 7.33999 11.4599L15.56 3.22988C15.86 2.92988 16.35 2.92988 16.65 3.22988H16.66Z"
+                        fill="currentColor"
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
+                <button class="success-arrow success-right">
+                  <svg
+                    id="icon_chevron_right_regular"
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-karrot-ui-icon="true"
+                  >
+                    <g>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M8.42511 3.22988L16.6551 11.4499C16.9551 11.7499 16.9551 12.2399 16.6551 12.5399L8.42511 20.7699C8.12511 21.0699 7.63511 21.0699 7.33511 20.7699C7.03511 20.4699 7.03511 19.9799 7.33511 19.6799L15.0151 11.9999L7.33511 4.31988C7.03511 4.01988 7.03511 3.52988 7.33511 3.22988C7.63511 2.92988 8.12511 2.92988 8.42511 3.22988Z"
+                        fill="currentColor"
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="success-slider-container">
+            <div class="success-slider-track">
+              <!-- ✅ 10개 이미지 -->
+              <div class="success-slide">
+                <div class="success-slide-inner">
+                  <img src="./image/foot-img-1.png" />
+                  <div class="success-text-overlay">
+                    <p>동네 사랑방이 된<br />카페 사장님의 비결</p>
+                    <span>카페 / 공간</span>
+                  </div>
+                </div>
+              </div>
+              <div class="success-slide">
+                <div class="success-slide-inner">
+                  <img src="./image/foot-img-2.png" />
+                  <div class="success-text-overlay">
+                    <p>당근 덕분에<br />가게 2호점 냈어요</p>
+                    <span>카페 / 디저트</span>
+                  </div>
+                </div>
+              </div>
+              <div class="success-slide">
+                <div class="success-slide-inner">
+                  <img src="./image/foot-img-3.png" />
+                  <div class="success-text-overlay">
+                    <p>공방 운영에<br />재미가 생겼어요</p>
+                    <span>도예 / 공방 / 클래스</span>
+                  </div>
+                </div>
+              </div>
+              <div class="success-slide">
+                <div class="success-slide-inner">
+                  <img src="./image/foot-img-4.png" />
+                  <div class="success-text-overlay">
+                    <p>당근 거래하듯 쉽게<br />관리할 수 있어요</p>
+                    <span>필라테스 / 클래스</span>
+                  </div>
+                </div>
+              </div>
+              <div class="success-slide">
+                <div class="success-slide-inner">
+                  <img src="./image/foot-img-5.png" />
+                  <div class="success-text-overlay">
+                    <p>아이의 인생을 바꾸는<br />수업을 하고 있어요</p>
+                    <span>농구 / 클래스</span>
+                  </div>
+                </div>
+              </div>
+              <div class="success-slide">
+                <div class="success-slide-inner">
+                  <img src="./image/foot-img-6.png" />
+                  <div class="success-text-overlay">
+                    <p>간판 없이도<br />당근 보고 오세요</p>
+                    <span>꽃집</span>
+                  </div>
+                </div>
+              </div>
+              <div class="success-slide">
+                <div class="success-slide-inner">
+                  <img src="./image/foot-img-7.png" />
+                  <div class="success-text-overlay">
+                    <p>당근이<br />제 사무실이에요</p>
+                    <span>인테리어 / 수리</span>
+                  </div>
+                </div>
+              </div>
+              <div class="success-slide">
+                <div class="success-slide-inner">
+                  <img src="./image/foot-img-8.png" />
+                  <div class="success-text-overlay">
+                    <p>조용하던 가게에 손님이<br />찾아오기 시작했어요</p>
+                    <span>음식점 / 일식</span>
+                  </div>
+                </div>
+              </div>
+              <div class="success-slide">
+                <div class="success-slide-inner">
+                  <img src="./image/foot-img-9.png" />
+                  <div class="success-text-overlay">
+                    <p>매출의 80%는<br />당근에서 발생해요</p>
+                    <span>정육점 / 온라인 판매</span>
+                  </div>
+                </div>
+              </div>
+              <div class="success-slide">
+                <div class="success-slide-inner">
+                  <img src="./image/foot-img-10.png" />
+                  <div class="success-text-overlay">
+                    <p>다들 말렸지만<br />동네 맛집이 됐어요</p>
+                    <span>음식점 / 중식</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--헤더 네비 드롭다운-->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        // 드롭다운 토글 (hover)
+        $(".has-dropdown").hover(
+          function () {
+            $(this).find(".dropdown").stop(true, true).slideDown(0);
+          },
+          function () {
+            $(this).find(".dropdown").stop(true, true).slideUp(0);
+          }
+        );
+      });
+    </script>
+
+    <!--카드 1번 광고상품 자바스크립트-->
+    <script type="text/javascript">
+      // ✅ 문서 로드 완료 후 실행될 jQuery 함수
+      $(document).ready(function () {
+        // ✅ 슬라이드 하나의 고정 너비(px) 지정
+        const slideWidth = 500;
+
+        // ✅ 트랙(전체 슬라이드들이 감싸진 요소) 선택
+        const $sliderTrack = $(".head-section-slider-track");
+
+        // ✅ 개별 슬라이드 요소들 선택
+        const $slides = $(".head-section-slider-text");
+
+        // ✅ 전체 슬라이드 개수 구하기
+        const totalSlides = $slides.length;
+
+        // ✅ 현재 보여지는 슬라이드 인덱스 (초기값 0)
+        let currentIndex = 0;
+
+        // ✅ 자동 슬라이드 방향 플래그 ("right" 또는 "left")
+        let direction = "right";
+
+        // ✅ 자동 슬라이드를 위한 타이머 변수
+        let slideTimer = null;
+
+        // 연속클릭 방지 변수
+        let btnBuffer = false;
+
+        // ✅ 슬라이드를 특정 인덱스로 이동시키는 함수
+        function goToSlide(index) {
+          // transform 속성을 이용해서 트랙을 왼쪽으로 슬라이드
+          $sliderTrack.css("transform", `translateX(-${index * slideWidth}px)`);
+        }
+
+        // ✅ 다음 슬라이드로 이동하는 함수
+        function nextSlide() {
+          if (btnBuffer) return; //함수상태에 따라 동작중이 아닐 때 실행
+          btnBuffer = true; //값을 바꿔줘서 false 상태가 아니면 위 조건문에서 동작하지 않고 그냥 패스됨
+
+          // 다음 인덱스 계산 (끝까지 가면 0으로 루프)
+          currentIndex = (currentIndex + 1) % totalSlides;
+          goToSlide(currentIndex); // 이동 실행
+          setTimeout(() => {
+            btnBuffer = false;
+          }, 500); //0.5초 후에 동작가능하도록
+        }
+
+        // ✅ 이전 슬라이드로 이동하는 함수
+        function prevSlide() {
+          if (btnBuffer) return;
+          btnBuffer = true;
+          // 이전 인덱스 계산 (0보다 작아지면 맨 끝으로 루프)
+          currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+          goToSlide(currentIndex); // 이동 실행
+          setTimeout(() => {
+            btnBuffer = false;
+          }, 500);
+        }
+
+        // ✅ 자동 슬라이드를 실행시키는 함수 (5초마다 이동)
+        function startAutoSlide() {
+          clearInterval(slideTimer); // 기존 타이머 제거 (중복 방지)
+          slideTimer = setInterval(() => {
+            // 방향에 따라 next 또는 prev 호출
+            if (direction === "right") {
+              nextSlide();
+            } else {
+              prevSlide();
+            }
+          }, 5000); // 5초 간격
+        }
+
+        // ✅ 오른쪽 버튼 클릭 시
+        $("#nextBtn").on("click", function () {
+          direction = "right"; // 방향 오른쪽으로 고정
+          nextSlide(); // 슬라이드 이동
+          startAutoSlide(); // 자동 슬라이드 리셋하여 계속 실행
+        });
+
+        // ✅ 왼쪽 버튼 클릭 시
+        $("#prevBtn").on("click", function () {
+          direction = "left"; // 방향 왼쪽으로 고정
+          prevSlide(); // 슬라이드 이동
+          startAutoSlide(); // 자동 슬라이드 리셋하여 계속 실행
+        });
+
+        // ✅ 페이지 로드 직후 자동 슬라이드 시작
+        startAutoSlide();
+      });
+    </script>
+
+    <!--카드 2번 간편모드 자바스크립트-->
+    <script type="text/javascript">
+      // ✅ 문서가 로드되면 실행되는 jQuery 함수
+      $(document).ready(function () {
+        // 페이지 진입 시 첫 번째 슬라이드(인덱스 0)로 초기 세팅
+        showSlide(0);
+      });
+
+      // ✅ 인덱스에 따라 슬라이드를 이동시키는 함수
+      function showSlide(index) {
+        // 슬라이드 하나의 너비를 구함 (margin 포함)
+        const slideWidth = $(".mode-card").outerWidth(true);
+
+        // 이동할 거리 계산: index * 슬라이드 너비 만큼 왼쪽으로 이동
+        const newTransform = -slideWidth * index;
+
+        // 트랙에 transform 속성으로 슬라이딩 이동
+        $(".slider-track").css("transform", `translateX(${newTransform}px)`);
+
+        // 페이지네이션(1,2,3번 버튼) 클래스 초기화
+        $(".mode-pagination .page").removeClass("active");
+
+        // 현재 인덱스의 버튼에 active 클래스 부여 (색상 등 강조)
+        $(".mode-pagination .page").eq(index).addClass("active");
+
+        // 현재 인덱스를 .mode-slider 엘리먼트에 저장 (상태 기억용)
+        $(".mode-slider").data("currentIndex", index);
+
+        // ✨ 슬라이드 인덱스에 따라 expert-header (하단 설명 텍스트) 연동
+        $(".expert-header").removeClass("active"); // 모두 숨김
+        $(".expert-header").eq(index).addClass("active"); // 현재 인덱스만 표시
+      }
+
+      // ✅ 이전 슬라이드로 이동하는 함수 (← 버튼 눌렀을 때)
+      function prevSlide() {
+        // 현재 인덱스 가져오기 (없으면 기본 0)
+        let currentIndex = $(".mode-slider").data("currentIndex") || 0;
+
+        // 이전 인덱스 계산 (0보다 작아지면 마지막 인덱스로 루프)
+        let newIndex =
+          currentIndex <= 0 ? $(".mode-card").length - 1 : currentIndex - 1;
+
+        // 이동 실행
+        showSlide(newIndex);
+      }
+
+      // ✅ 다음 슬라이드로 이동하는 함수 (→ 버튼 눌렀을 때)
+      function nextSlide() {
+        // 현재 인덱스 가져오기
+        let currentIndex = $(".mode-slider").data("currentIndex") || 0;
+
+        // 다음 인덱스 계산 (마지막 넘으면 0으로 루프)
+        let newIndex =
+          currentIndex >= $(".mode-card").length - 1 ? 0 : currentIndex + 1;
+
+        // 이동 실행
+        showSlide(newIndex);
+      }
+
+      // ✅ 페이지네이션 버튼이나 외부에서 호출할 수 있는 슬라이드 이동 함수
+      function goToSlide(index) {
+        showSlide(index);
+      }
+    </script>
+
+    <!--카드 3번 전문가 모드 자바스크립트-->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        // 페이지네이션 숫자 버튼 클릭 이벤트 연결
+        $(".expert-pagination .page").each(function (index) {
+          $(this).on("click", function () {
+            showExpertSlide(index); // 슬라이드 이동만 호출 (index 저장 X)
+          });
+        });
+
+        // 좌우 화살표 버튼 클릭 이벤트 연결
+        $(".expert-slider .arrow.left").on("click", expertPrevSlide);
+        $(".expert-slider .arrow.right").on("click", expertNextSlide);
+      });
+
+      // ⭐ 슬라이드를 중앙에 정렬시켜 이동하는 함수
+      function showExpertSlide(index) {
+        const $track = $(".expert-slider-track");
+        const $cards = $(".expert-card");
+        const $target = $cards.eq(index);
+
+        const wrapperWidth = $(".expert-slider-wrapper").outerWidth();
+        const cardWidth = $target.outerWidth(true);
+        const cardLeft = $target[0].offsetLeft;
+
+        const translateX = cardLeft - wrapperWidth / 2 + cardWidth / 2;
+
+        $track.css("transform", `translateX(-${translateX}px)`);
+
+        // 페이지네이션 버튼 상태 변경
+        $(".expert-pagination .page").removeClass("active");
+        $(".expert-pagination .page").eq(index).addClass("active");
+
+        // ✅ 슬라이드 인덱스를 여기서만 갱신
+        $(".expert-slider").data("currentIndex", index);
+      }
+
+      // ✅ 이전 슬라이드
+      function expertPrevSlide() {
+        const total = $(".expert-card").length;
+        let current = $(".expert-slider").data("currentIndex") || 0;
+        const newIndex = current <= 0 ? total - 1 : current - 1;
+        showExpertSlide(newIndex); // 인덱스 갱신은 내부에서 처리됨
+      }
+
+      // ✅ 다음 슬라이드
+      function expertNextSlide() {
+        const total = $(".expert-card").length;
+        let current = $(".expert-slider").data("currentIndex") || 0;
+        const newIndex = current >= total - 1 ? 0 : current + 1;
+        showExpertSlide(newIndex); // 인덱스 갱신은 내부에서 처리됨
+      }
+
+      function showExpertSlide(index) {
+        const $track = $(".expert-slider-track");
+        const $cards = $(".expert-card");
+        const $target = $cards.eq(index);
+
+        const wrapperWidth = $(".expert-slider-wrapper").outerWidth();
+        const cardWidth = $target.outerWidth(true);
+        const cardLeft = $target[0].offsetLeft;
+
+        const translateX = cardLeft - wrapperWidth / 2 + cardWidth / 2;
+        $track.css("transform", `translateX(-${translateX}px)`);
+
+        $(".expert-pagination .page").removeClass("active");
+        $(".expert-pagination .page").eq(index).addClass("active");
+
+        $(".expert-slider").data("currentIndex", index);
+
+        // ✨ 여기! 하단 expert-summary 연결
+        $(".expert-summary").removeClass("active");
+        $(".expert-summary").eq(index).addClass("active");
+      }
+
+      // ✅ 초기 슬라이드 표시
+      $(window).on("load", function () {
+        showExpertSlide(0);
+      });
+    </script>
+
+    <!--푸터부분 이미지 무한루프 슬라이더-->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        const $track = $(".success-slider-track");
+        const $slides = $(".success-slide");
+        const slideCount = $slides.length;
+        const slideWidth = $slides.outerWidth(true);
+        let currentIndex = 0;
+
+        // 무한 루프용 복제
+        $track.append($slides.clone());
+        $track.prepend($slides.clone());
+        $track.css("transform", `translateX(-${slideCount * slideWidth}px)`);
+
+        function moveTo(index) {
+          $track.css("transition", "transform 0.5s ease-in-out");
+          $track.css(
+            "transform",
+            `translateX(-${(slideCount + index) * slideWidth}px)`
+          );
+          currentIndex = index;
+        }
+
+        function nextSlide() {
+          currentIndex++;
+          moveTo(currentIndex);
+          if (currentIndex >= slideCount) {
+            setTimeout(() => {
+              $track.css("transition", "none");
+              $track.css(
+                "transform",
+                `translateX(-${slideCount * slideWidth}px)`
+              );
+              currentIndex = 0;
+            }, 510);
+          }
+        }
+
+        function prevSlide() {
+          currentIndex--;
+          moveTo(currentIndex);
+          if (currentIndex < 0) {
+            setTimeout(() => {
+              $track.css("transition", "none");
+              $track.css(
+                "transform",
+                `translateX(-${(slideCount * 2 - 1) * slideWidth}px)`
+              );
+              currentIndex = slideCount - 1;
+            }, 510);
+          }
+        }
+
+        $(".success-right").on("click", nextSlide);
+        $(".success-left").on("click", prevSlide);
+      });
+    </script>
+  </body>
+</html>
